@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body > footer {
+    background-color: rgb(45, 103, 190);
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+
+
+body > header {
+    background-color: rgb(45, 103, 190);
+    color: white;
+    padding: 10px;
+}
+
+
+nav > ul {
+    list-style: none;
+}
+
+nav > ul > li > a {
+    color: white;
+}
+
+body > main > article {
+    width: 70%;
+    margin: 100px;
+}
+
+.comment_indent {
+    border-top: 1px solid;
+    padding-top: 10px;
+}
